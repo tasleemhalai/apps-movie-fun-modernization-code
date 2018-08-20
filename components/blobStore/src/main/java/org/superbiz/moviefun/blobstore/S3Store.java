@@ -7,7 +7,7 @@ import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.S3Object;
 import com.amazonaws.services.s3.model.S3ObjectInputStream;
 import org.apache.tika.Tika;
-import org.apache.tika.io.IOUtils;
+import com.amazonaws.util.IOUtils;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

@@ -5,7 +5,7 @@ import java.util.Objects;
 public class MovieInfo {
 
 
-    private long id;
+    private Long id;
 
     private String director;
     private String title;
@@ -42,7 +42,7 @@ public class MovieInfo {
         return rating;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
     @Override
