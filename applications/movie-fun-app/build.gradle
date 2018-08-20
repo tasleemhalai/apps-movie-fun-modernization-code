@@ -19,11 +19,12 @@ dependencies {
     compile "javax.servlet:jstl:1.2"
 
     compile "mysql:mysql-connector-java:5.1.40"
-
+    compile "org.apache.tika:tika-core:1.14"
+    compile "com.amazonaws:aws-java-sdk:1.11.74"
+    compile "commons-lang:commons-lang:2.4"
     compile "org.apache.tomcat.embed:tomcat-embed-jasper:8.5.6"
     compile "org.apache.geronimo.specs:geronimo-osgi-locator:1.1"
     compile "org.apache.geronimo.components:geronimo-jaspi:2.0.0"
     compile "org.apache.tomee:javaee-api:7.0"
-    compile project(":components:movies")
     testCompile "junit:junit:$junitVersion"
 }
